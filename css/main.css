@@ -4,9 +4,47 @@ body {
     justify-content: center;
 }
 
-.login-container{
+.container{
     width:400px;
+    height: auto;
     justify-content: center;
     align-items: center;
-    margin:10px
+    margin:10px;
+    padding: 10px;
+    border-radius: 5px 5px; 
+    border: 2px solid #D4D4D4;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+.amazon{
+    display: flex;
+    width:400px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    padding: 10px;
+    border-radius: 5px 5px; 
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.form-group{
+    padding: 5px;
+}
+
+.button {
+    font-family: arial;
+    font-size: 12px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background: #EEB32B;
+    width: 80%;
+  }
+
+.padding-stuff{
+    padding: 10px;
+    justify-content: space-evenly;
+    margin: 2px;
 }
